@@ -33,7 +33,7 @@ def loginUser():
     email = request.form["email"]
     password = request.form["password"]
 
-    if is_user_locked(email):
+    if is_user_locked():
         return "Too many failed login attempts. Please try again later."
 
     user = User.query.filter_by(email=email).first()
