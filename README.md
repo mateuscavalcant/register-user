@@ -1,14 +1,14 @@
 # sync-signup-login
-This is a registration application for users to sign up and log in. built with Flask and SQLAlchemy.
+This is a registration application for users to sign up and login. built with Flask and SQLAlchemy.
 
 ## Description
 
-The User Registration Application is a web-based application that allows users to register and log in to the system. It provides a secure and user-friendly interface for managing user accounts.
+The User Registration Application is a web-based application that allows users to register and login to the system. It provides a secure and user-friendly interface for managing user accounts.
 
 ## Features
 
 - User registration: Users can create an account by providing their name, email, and password.
-- User login: Registered users can log in to access their account.
+- User login: Registered users can login to access their account.
 - Password encryption: User passwords are securely encrypted using bcrypt for enhanced security.
 - Data storage: User information is stored in a relational database using SQLAlchemy.
 - Error handling: Appropriate error messages are displayed to users for invalid input or unauthorized access.
