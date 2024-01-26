@@ -1,4 +1,4 @@
-# sync-signup-login
+# Register User
 This is a registration application for users to sign up and login. built with Flask and SQLAlchemy.
 
 ## Description
